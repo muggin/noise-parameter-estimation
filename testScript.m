@@ -1,5 +1,6 @@
 clearvars; close all; clc;
 
+global fileHandle
 %% Skrypt testujacy
 
 % testowane obrazy wejsciowe
@@ -21,31 +22,35 @@ testWindowSizes = [3, 5, 7];
 testRepetitions = 1:1;
 
 % licznik wykonanych testow
-testCounter = 1;
+currentTest = 1;
+
+% tworzy katalog na wyniki testu
+outputDir = ['testout_', datestr(now, 'HHMMSS')];
+mkdir(outputDir);
 
 % petla testujaca
 for curImage = testImages
+    [path, imageName, imageExt] = fileparts(char(curImage));
+    outputFile = [outputDir, '/', imageName,'.txt'];
+    fileHandle = fopen(outputFile, 'w');
     for curParamA = testParamsA
         for curParamB = testParamsB
             for curThreshold = testThresholds
                 for curWindowSize = testWindowSizes
                     for testRepetition = testRepetitions
-                        fprintf('==== TEST %i ====\n', testCounter);
-                        PrintTestHeader(curImage, curParamA, curParamB, curThreshold, curWindowSize);
+                        WriteTestHeader([imageName, imageExt], curParamA, curParamB, curThreshold, curWindowSize);
                         testStart = cputime;
                         % RUN TEST
                         testDuration = cputime - testStart;
-                        PrintTestResults(1, 1, testDuration);
-                        testCounter = testCounter + 1;
-                        fprintf('\n\n');
+                        WriteTestResults(1, 1, testDuration);
+                        currentTest = currentTest + 1;
                     end 
                 end
             end
         end
     end
+    fclose(fileHandle);
 end
-
-
 
 
 

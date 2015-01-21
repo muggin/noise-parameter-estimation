@@ -5,8 +5,9 @@ function PrintTestHeader( imageName, a, b, threshold, windowSize )
 %   @param  b - wartosc parametru b uzyta przy generowaniu szumu
 %   @param  threshold - wartosc progu
 %   @param  windowSize - rozmiar okna
-    fprintf('* TEST PARAMETERS\n');
-    fprintf('Image: %s\na: %.5f\nb: %.5f\nThreshold: %.3f\nWindow Size: %i\n', char(imageName), a, b, threshold, windowSize);
+    global fileHandle
+    fprintf(fileHandle, '* TEST PARAMETERS\n');
+    fprintf(fileHandle, 'Image: %s\na: %.5f\nb: %.5f\nThreshold: %.3f\nWindow Size: %i\n', imageName, a, b, threshold, windowSize);
 
 end
 
