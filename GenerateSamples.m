@@ -9,16 +9,16 @@ function [ samples ] = GenerateSamples( image, threshold, windowSize )
 % odszumienie obrazu w celu znalezienia jednorodnych obszarow (patrz wzor 11)
 % TODO: obliczyc yD przy pomocy waveletow. Aktualnie wykorzystujemy druga z
 % proponowanych mozliwosci - filtr gaussowski.
-G = fspecial('gaussian',[5 5], 2);
+G = fspecial('gaussian',[5 5], 1);
 yD = imfilter(image, G,'same');
 
 % obliczenie lokalnych srednich w odszumionym obrazie
-localMeans = conv2(yD, ones(windowSize) / windowSize ^ 2,'same');
+localMeans = conv2(yD, ones(windowSize) / windowSize ^ 2, 'same');
 localMeans = localMeans(:);
 
 % obliczenie lokalnych odchylen standardowych w odszumionym obrazie
 localStdDevs = stdfilt(yD, ones(windowSize));
-localStdDevs = localStdDevs(:);
+localStdDevs = localStdDevs(:)
 
 % wybor obszarow do zbioru probek LSE (patrz wzor 12)
 acceptedSamples = find(localStdDevs < threshold);

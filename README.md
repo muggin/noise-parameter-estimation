@@ -3,6 +3,6 @@ Simplified noise model parameter estimation for signal-dependent noise based on 
 
 ### To Do:
 - [ ] Funkcja estymujaca k1, k0 (LSE)
-- [ ] Skrypt testowy
+- [x] Skrypt testowy
 - [ ] Dodac wavelety do GenerateSamples
 - [ ] Test i raport
