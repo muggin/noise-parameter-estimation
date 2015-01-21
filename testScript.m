@@ -12,7 +12,7 @@ testParamsA = [0.005, 0.01, 0.015];
 testParamsB = [0.0016, 0.0036, 0.0064];
 
 % testowe wartosci parametru threshold
-testThresholds = [0.015, 0.025, 0.05, 0.075];
+testThresholds = 0.25:0.05:0.5;
 
 % testowe rozmiary okien
 testWindowSizes = [3, 5, 7];

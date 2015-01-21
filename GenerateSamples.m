@@ -1,8 +1,9 @@
-function [ samples ] = GenerateSamples( image, threshold, windowSize )
+function [ samples ] = GenerateSamples( image, threshold, noiseStdDev, windowSize )
 %GENERATESAMPLES funkcja generuje zbior probek na podstawie ktorych
 %dokonana zostanie aproksymacja wartosci k1 przy pomocy LSE.
 %   @param  image - obraz wejsciowy
 %   @param  threshold - prog akceptacji probki
+%   @param  noiseStdDev - odchylenie standardowe szumu
 %   @param  windowSize - rozmiar okna do obliczania statystyk lokalnych
 %   @return samples - zbior probek
 
@@ -21,6 +22,7 @@ localStdDevs = stdfilt(yD, ones(windowSize));
 localStdDevs = localStdDevs(:)
 
 % wybor obszarow do zbioru probek LSE (patrz wzor 12)
+epsilon = threshold * noiseStdDev
 acceptedSamples = find(localStdDevs < threshold);
 samples = [localMeans(acceptedSamples), localStdDevs(acceptedSamples)];
 end
