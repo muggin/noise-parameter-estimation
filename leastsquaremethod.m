@@ -1,7 +1,7 @@
 function [k0, k1] = leastsquaremethod(image, samples, noiseStdDev)
 %LEASTSQUAREMETHOD estimates gaussian-gaussian noise parameters k0, k1
 %   @param  image - input image
-%   @param	samples - set of samples used for estimation
+%   @param  samples - set of samples used for estimation
 %   @param  noiseStdDev - odchylenie standardowe szumu
 %   @return [k0, k1] - estimated noise parameters	
 %
