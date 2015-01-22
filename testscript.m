@@ -2,7 +2,7 @@ clearvars; close all; clc;
 %% Testing script
 
 % input images
-imageArray = {'lena.tiff', 'barbara.jpg', 'boat.png', 'peppers.bmp'};
+imageArray = {'lena.tiff', 'barbara.jpg'};%, 'boat.png', 'peppers.bmp'};
 
 % parameter a for poisson-gaussian noise generation
 aParameterArray = [0.005, 0.01, 0.015];
@@ -11,10 +11,10 @@ aParameterArray = [0.005, 0.01, 0.015];
 bParameterArray = [0.0016, 0.0036, 0.0064];
 
 % threshold for sample set generation
-thresholdArray = [0.25:0.05:0.5];
+thresholdArray = [0.35];
 
 % local statistics window size
-windowSizeArray = [3, 5, 7];
+windowSizeArray = [3];
 
 % number of repetitions of each test
 nRepetitions = 1;
@@ -34,10 +34,11 @@ for image = imageArray
                 for windowSize = windowSizeArray
                     for iRepetition = 1:nRepetitions
                         WriteTestHeader(fileDescriptor, [imageName, imageExtension], paramA, paramB, threshold, windowSize);
+                        inputImage = im2double(rgb2gray(imread(['test_images/', char(image)])));
                         testStart = cputime;
-                        % RUN TEST
+                        [noiseStdDev, estimatedA, estimatedB] = runtest(inputImage, paramA, paramB, threshold, windowSize);
                         testDuration = cputime - testStart;
-                        WriteTestResults(fileDescriptor, 1, 1, testDuration);
+                        WriteTestResults(fileDescriptor, estimatedA, estimatedB, testDuration);
                     end 
                 end
             end

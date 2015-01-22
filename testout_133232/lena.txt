@@ -1,0 +1,1188 @@
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00315
+Estimated b: 0.00227
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00227
+Estimated b: 0.00293
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00381
+Estimated b: 0.00285
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00183
+Estimated b: 0.00267
+Duration: 0.28125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00308
+Estimated b: 0.00223
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00250
+Estimated b: 0.00285
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00303
+Estimated b: 0.00244
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00162
+Estimated b: 0.00245
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00294
+Estimated b: 0.00222
+Duration: 0.48438
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00098
+Estimated b: 0.00212
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00276
+Estimated b: 0.00208
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00188
+Estimated b: 0.00268
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00312
+Estimated b: 0.00414
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00288
+Estimated b: 0.00502
+Duration: 0.35938
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00266
+Estimated b: 0.00387
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00182
+Estimated b: 0.00417
+Duration: 0.46875
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00297
+Estimated b: 0.00385
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00202
+Estimated b: 0.00440
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00245
+Estimated b: 0.00352
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00245
+Estimated b: 0.00500
+Duration: 0.39063
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00342
+Estimated b: 0.00489
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00207
+Estimated b: 0.00442
+Duration: 0.40625
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00318
+Estimated b: 0.00454
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00360
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00209
+Estimated b: 0.00466
+Duration: 0.29688
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00238
+Estimated b: 0.00599
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00128
+Estimated b: 0.00573
+Duration: 0.48438
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00307
+Estimated b: 0.00729
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00139
+Estimated b: 0.00681
+Duration: 0.48438
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00327
+Estimated b: 0.00710
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00220
+Estimated b: 0.00715
+Duration: 0.57813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00310
+Estimated b: 0.00735
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00149
+Estimated b: 0.00667
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00319
+Estimated b: 0.00759
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00174
+Estimated b: 0.00721
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00334
+Estimated b: 0.00761
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00640
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00193
+Estimated b: 0.00668
+Duration: 0.50000
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00550
+Estimated b: 0.00218
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00507
+Estimated b: 0.00317
+Duration: 0.53125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00572
+Estimated b: 0.00229
+Duration: 0.34375
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00451
+Estimated b: 0.00310
+Duration: 0.39063
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00635
+Estimated b: 0.00253
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00174
+Estimated b: 0.00265
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00726
+Estimated b: 0.00281
+Duration: 0.28125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00520
+Estimated b: 0.00309
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00762
+Estimated b: 0.00297
+Duration: 0.28125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00438
+Estimated b: 0.00298
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00639
+Estimated b: 0.00250
+Duration: 0.53125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00160
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00635
+Estimated b: 0.00332
+Duration: 0.39063
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00663
+Estimated b: 0.00428
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00541
+Estimated b: 0.00507
+Duration: 0.34375
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00698
+Estimated b: 0.00429
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00662
+Estimated b: 0.00532
+Duration: 0.28125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00601
+Estimated b: 0.00412
+Duration: 0.31250
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00610
+Estimated b: 0.00493
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00614
+Estimated b: 0.00413
+Duration: 0.53125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00524
+Estimated b: 0.00488
+Duration: 0.53125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00736
+Estimated b: 0.00463
+Duration: 0.48438
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00764
+Estimated b: 0.00583
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00658
+Estimated b: 0.00425
+Duration: 0.45313
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00360
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00570
+Estimated b: 0.00500
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00696
+Estimated b: 0.00672
+Duration: 0.50000
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00793
+Estimated b: 0.00880
+Duration: 0.39063
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00790
+Estimated b: 0.00789
+Duration: 0.54688
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00392
+Estimated b: 0.00621
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01001
+Estimated b: 0.00948
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00533
+Estimated b: 0.00721
+Duration: 0.39063
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00754
+Estimated b: 0.00790
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00624
+Estimated b: 0.00777
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00570
+Estimated b: 0.00585
+Duration: 0.45313
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00567
+Estimated b: 0.00752
+Duration: 0.59375
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00797
+Estimated b: 0.00848
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01000
+b: 0.00640
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00654
+Estimated b: 0.00815
+Duration: 0.56250
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01080
+Estimated b: 0.00302
+Duration: 0.48438
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.01546
+Estimated b: 0.00426
+Duration: 0.50000
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.00867
+Estimated b: 0.00270
+Duration: 0.54688
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.01496
+Estimated b: 0.00425
+Duration: 0.56250
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01019
+Estimated b: 0.00293
+Duration: 0.26563
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00626
+Estimated b: 0.00336
+Duration: 0.48438
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01240
+Estimated b: 0.00337
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00894
+Estimated b: 0.00372
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01081
+Estimated b: 0.00309
+Duration: 0.51563
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.01064
+Estimated b: 0.00397
+Duration: 0.51563
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01336
+Estimated b: 0.00413
+Duration: 0.48438
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00160
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.01127
+Estimated b: 0.00391
+Duration: 0.40625
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01159
+Estimated b: 0.00516
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00684
+Estimated b: 0.00486
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01123
+Estimated b: 0.00488
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.01206
+Estimated b: 0.00614
+Duration: 0.28125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01047
+Estimated b: 0.00455
+Duration: 0.46875
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.01000
+Estimated b: 0.00566
+Duration: 0.28125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01085
+Estimated b: 0.00489
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00816
+Estimated b: 0.00517
+Duration: 0.28125
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01093
+Estimated b: 0.00488
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00450
+Estimated b: 0.00441
+Duration: 0.32813
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01256
+Estimated b: 0.00576
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00360
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00860
+Estimated b: 0.00516
+Duration: 0.48438
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.250
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01207
+Estimated b: 0.00798
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.250
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.01226
+Estimated b: 0.00859
+Duration: 0.62500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.300
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01112
+Estimated b: 0.00721
+Duration: 0.46875
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.300
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00997
+Estimated b: 0.00827
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01251
+Estimated b: 0.00823
+Duration: 0.46875
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.350
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00825
+Estimated b: 0.00753
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.400
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01404
+Estimated b: 0.00934
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.400
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00895
+Estimated b: 0.00755
+Duration: 0.37500
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.450
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01205
+Estimated b: 0.00818
+Duration: 0.42188
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.450
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.01092
+Estimated b: 0.00843
+Duration: 0.34375
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.500
+Window Size: 3
+* TEST RESULTS
+Estimated a: 0.01146
+Estimated b: 0.00801
+Duration: 0.43750
+
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.01500
+b: 0.00640
+Threshold: 0.500
+Window Size: 5
+* TEST RESULTS
+Estimated a: 0.00631
+Estimated b: 0.00637
+Duration: 0.28125
+

@@ -1,0 +1,6 @@
+* TEST PARAMETERS
+Image: lena.tiff
+a: 0.00500
+b: 0.00160
+Threshold: 0.250
+Window Size: 3
