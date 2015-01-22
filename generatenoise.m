@@ -7,13 +7,13 @@ function [newImage] = generatenoise(image, aParameter, bParameter )
 %
 % Copyright 2015 Wojciech Kryscinski, Krzysztof Spytkowski
 
-    % niezalezny szum o rozkladzie N(0,1)
+    % signal-independent gaussian noise N(0,1)
     independentRandNoise = randn(size(image));
 
-    % odchylenie standardowe szumu Poisson-Gauss
+    % signal-dependent poisson-gaussian noise standard deviation
     overallNoiseStdDev = sqrt(aParameter .* image + bParameter);
 
-    % dodanie szumu do obrazu wejsciowego (patrz wzor 1)
+    % adding generated noise to the input image (patrz wzor 1)
     newImage = image + independentRandNoise .* overallNoiseStdDev;
 
 end
