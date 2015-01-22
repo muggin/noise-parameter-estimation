@@ -12,13 +12,16 @@ function [samples] = generatesamples(image, threshold, noiseStdDev, windowSize)
     % denoising the input image in order to find uniform areas (ref: equation 11)
     G = fspecial('gaussian',[5 5], 1);
     denoisedImage = imfilter(image, G,'same');
+    %[yD, l] = wavedec(image, 1, 'db9'); %%%%%
 
     % computing local means of the denoised image
-    localMeans = conv2(denoisedImage, ones(windowSize) / windowSize ^ 2, 'same');
+    localMeans = conv2(denoisedImage, ones(windowSize) / windowSize ^ 2, 'same'); %%%%%%%%%%%%%%%%%%%%%%
+    %localMeans = conv2(yD, ones(windowSize) / windowSize ^ 2, 'same');
     localMeans = localMeans(:);
 
-     % computing local standard deviations of the denoised image
+    % computing local standard deviations of the denoised image
     localStdDevs = stdfilt(denoisedImage, ones(windowSize));
+    %localStdDevs = stdfilt(yD, ones(windowSize)); %%%%%%%%%%%%%%
     localStdDevs = localStdDevs(:);
 
     % selecting estimated signal samples and noise standard deviations (ref: equation 12)

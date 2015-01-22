@@ -10,7 +10,7 @@ function [k0, k1] = leastsquaremethod(image, samples, noiseStdDev)
     % estimating noise parameters using least square method (ref: equation 14-18)
     B = samples(:, 2) - noiseStdDev;
     A = samples(:, 1) - mean(image(:));
-    k1 = (A * B) / (norm(A) ^ 2);
+    k1 = (A' * B) / (norm(A) ^ 2);
     k0 = noiseStdDev - k1 * mean(image(:));
 
 end
