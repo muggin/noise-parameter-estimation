@@ -7,7 +7,7 @@ function [noiseStdDev] = computenoisestddev(image)
 
     % estimating noise standard deviation (ref: equation 8)
     K_SCALE_FACTOR = 1 / 0.6745;
-    [cA, cH, cV, cD] = dwt2(image, 'db9');
+    [cA, cD] = dwt2(image, 'db5');
     noiseStdDev = K_SCALE_FACTOR * median(abs(cD(:)));
 
 end 
