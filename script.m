@@ -31,7 +31,7 @@ wynikStd = wynikStd + noiseStdDev;
 wynikA = wynikA + a1;
 wynikB = wynikB + b1;
 end;
-scatter(samples(:,1), samples(:,2), '.');
+%scatter(samples(:,1), samples(:,2), '.');
 wynikA / 50
 wynikB / 50
 wynikStd / 50
