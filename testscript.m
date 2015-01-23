@@ -38,7 +38,7 @@ for image = imageArray
                         testStart = cputime;
                         [noiseStdDev, estimatedA, estimatedB] = runtest(inputImage, paramA, paramB, threshold, windowSize);
                         testDuration = cputime - testStart;
-                        WriteTestResults(fileDescriptor, estimatedA, estimatedB, testDuration);
+                        WriteTestResults(fileDescriptor, noiseStdDev, estimatedA, estimatedB, testDuration);
                     end 
                 end
             end

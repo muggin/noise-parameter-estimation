@@ -1,11 +1,11 @@
 function writetestheader(fileDescriptor, imageName, aParameter, bParameter, threshold, windowSize)
-%PRINTTESTHEADER funkcja wypisuje informacje o wykonywanym tescie
+%PRINTTESTHEADER writes test parameters to file
 %   @param  fileDescriptor - output file descriptor
-%   @param  imageName - nazwa testowanego obrazka
-%   @param  aParameter - wartosc parametru a uzyta przy generowaniu szumu
-%   @param  bParameter - wartosc parametru b uzyta przy generowaniu szumu
-%   @param  threshold - wartosc progu
-%   @param  windowSize - rozmiar okna
+%   @param  imageName - input image name
+%   @param  aParameter - parameter a used for noise generation
+%   @param  bParameter - parameter b used for noise generation
+%   @param  threshold - sample acceptance threshold
+%   @param  windowSize - local statistic window size
 %
 % Copyright 2015 Wojciech Kryscinski, Krzysztof Spytkowski
 

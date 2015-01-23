@@ -15,7 +15,6 @@ function [samples] = generatesamples(image, threshold, noiseStdDev, windowSize)
     %yD = dwt(image, 'db9');
     yD = wden(image, 'heursure', 's', 'one', 1, 'db9');
 
-
     % computing local means of the input image
     localMeans = conv2(image, ones(windowSize) / (windowSize ^ 2), 'same');
     localMeans = localMeans(:);
