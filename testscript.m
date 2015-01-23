@@ -33,12 +33,12 @@ for image = imageArray
             for threshold = thresholdArray
                 for windowSize = windowSizeArray
                     for iRepetition = 1:nRepetitions
-                        WriteTestHeader(fileDescriptor, [imageName, imageExtension], paramA, paramB, threshold, windowSize);
+                        writetestheader(fileDescriptor, [imageName, imageExtension], paramA, paramB, threshold, windowSize);
                         inputImage = im2double(rgb2gray(imread(['test_images/', char(image)])));
                         testStart = cputime;
                         [noiseStdDev, estimatedA, estimatedB] = runtest(inputImage, paramA, paramB, threshold, windowSize);
                         testDuration = cputime - testStart;
-                        WriteTestResults(fileDescriptor, noiseStdDev, estimatedA, estimatedB, testDuration);
+                        writetestresults(fileDescriptor, noiseStdDev, estimatedA, estimatedB, testDuration);
                     end 
                 end
             end
