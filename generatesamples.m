@@ -10,10 +10,8 @@ function [samples] = generatesamples(image, threshold, noiseStdDev, windowSize)
 % Copyright 2015 Wojciech Kryscinski, Krzysztof Spytkowski
 
     % denoising the input image in order to find uniform areas (ref: equation 11)
-    %G = fspecial('gaussian',[5 5], 1);
-    %yD = imfilter(image, G,'same');
-    %yD = dwt(image, 'db9');
-    yD = wden(image, 'heursure', 's', 'one', 1, 'db9');
+    G = fspecial('gaussian',[7 7], 1);
+    yD = imfilter(image, G,'same');
 
     % computing local means of the input image
     localMeans = conv2(image, ones(windowSize) / (windowSize ^ 2), 'same');

@@ -1,0 +1,108 @@
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.00500
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.06372
+Estimated a: 0.00618
+Estimated b: 0.00192
+Duration: 0.20781
+
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.00500
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.08177
+Estimated a: 0.00657
+Estimated b: 0.00423
+Duration: 0.22969
+
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.00500
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.09918
+Estimated a: 0.00660
+Estimated b: 0.00725
+Duration: 0.20156
+
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.01000
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.08120
+Estimated a: 0.01163
+Estimated b: 0.00271
+Duration: 0.20625
+
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.01000
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.08840
+Estimated a: 0.01055
+Estimated b: 0.00409
+Duration: 0.19687
+
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.01000
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.10878
+Estimated a: 0.01136
+Estimated b: 0.00759
+Duration: 0.21094
+
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.01500
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.09187
+Estimated a: 0.01632
+Estimated b: 0.00309
+Duration: 0.23125
+
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.01500
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.10196
+Estimated a: 0.01577
+Estimated b: 0.00494
+Duration: 0.18750
+
+* TEST PARAMETERS
+Image: barbara.jpg
+a: 0.01500
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.11503
+Estimated a: 0.01548
+Estimated b: 0.00760
+Duration: 0.21563
+

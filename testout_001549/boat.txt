@@ -1,0 +1,108 @@
+* TEST PARAMETERS
+Image: boat.png
+a: 0.00500
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.06377
+Estimated a: 0.00520
+Estimated b: 0.00185
+Duration: 0.20469
+
+* TEST PARAMETERS
+Image: boat.png
+a: 0.00500
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.07881
+Estimated a: 0.00508
+Estimated b: 0.00392
+Duration: 0.18438
+
+* TEST PARAMETERS
+Image: boat.png
+a: 0.00500
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.09256
+Estimated a: 0.00486
+Estimated b: 0.00630
+Duration: 0.21094
+
+* TEST PARAMETERS
+Image: boat.png
+a: 0.01000
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.07989
+Estimated a: 0.01016
+Estimated b: 0.00225
+Duration: 0.20469
+
+* TEST PARAMETERS
+Image: boat.png
+a: 0.01000
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.08958
+Estimated a: 0.00954
+Estimated b: 0.00394
+Duration: 0.23125
+
+* TEST PARAMETERS
+Image: boat.png
+a: 0.01000
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.10703
+Estimated a: 0.00945
+Estimated b: 0.00721
+Duration: 0.21250
+
+* TEST PARAMETERS
+Image: boat.png
+a: 0.01500
+b: 0.00160
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.09013
+Estimated a: 0.01443
+Estimated b: 0.00246
+Duration: 0.19375
+
+* TEST PARAMETERS
+Image: boat.png
+a: 0.01500
+b: 0.00360
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.10349
+Estimated a: 0.01435
+Estimated b: 0.00469
+Duration: 0.20469
+
+* TEST PARAMETERS
+Image: boat.png
+a: 0.01500
+b: 0.00640
+Threshold: 0.350
+Window Size: 3
+* TEST RESULTS
+Noise StdDev: 0.11632
+Estimated a: 0.01393
+Estimated b: 0.00741
+Duration: 0.21250
+

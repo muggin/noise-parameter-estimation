@@ -10,7 +10,7 @@ function writetestresults(fileDescriptor, noiseStdDev, estimatedA, estimatedB, t
 
     fprintf(fileDescriptor, '* TEST RESULTS\n');
     fprintf(fileDescriptor, 'Noise StdDev: %.5f\nEstimated a: %.5f\nEstimated b: %.5f\nDuration: %.5f\n\n', ...
-            noiseStdDev, estimatedA, estimatedB, testDuration);
+        noiseStdDev, estimatedA, estimatedB, testDuration);
 
 end
 

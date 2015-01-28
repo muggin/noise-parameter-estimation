@@ -1,4 +1,4 @@
-function [newImage] = generatenoise(image, aParameter, bParameter )
+function [newImage] = generatenoise(image, aParameter, bParameter)
 %GENERATENOISE generates signal dependent noise
 %   @param  image - input image
 %   @param  aParameter - signal-dependent component parameter
@@ -13,7 +13,7 @@ function [newImage] = generatenoise(image, aParameter, bParameter )
     % signal-dependent poisson-gaussian noise standard deviation
     overallNoiseStdDev = sqrt(aParameter .* image + bParameter);
 
-    % adding generated noise to the input image (patrz wzor 1)
+    % adding generated noise to the input image (ref: equation 1)
     newImage = image + independentRandNoise .* overallNoiseStdDev;
 
 end

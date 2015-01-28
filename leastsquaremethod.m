@@ -7,7 +7,7 @@ function [k0, k1] = leastsquaremethod(image, samples, noiseStdDev)
 %
 % Copyright 2015 Wojciech Kryscinski, Krzysztof Spytkowski
 
-    % estimating noise parameters using least square method (ref: equation 14-18)
+    % estimating noise parameters using least square method (ref: equations 14-18)
     B = samples(:, 2) - noiseStdDev;
     A = samples(:, 1) - mean(image(:));
     k1 = (A' * B) / (norm(A) ^ 2);
